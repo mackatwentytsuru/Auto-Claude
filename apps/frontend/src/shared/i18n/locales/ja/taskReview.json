@@ -1,0 +1,66 @@
+{
+  "terminal": {
+    "openTerminal": "ターミナルを開く",
+    "openInbuilt": "内蔵ターミナルで開く",
+    "openExternal": "外部ターミナルで開く"
+  },
+  "merge": {
+    "branchHasNewCommits": "{{branch}}ブランチに{{count}}件の新しいコミットがあります。",
+    "branchHasNewCommits_other": "{{branch}}ブランチに{{count}}件の新しいコミットがあります。",
+    "branchHasNewCommitsSinceWorktree": "このワークツリーが作成されてから{{branch}}ブランチに{{count}}件の新しいコミットがあります。",
+    "branchHasNewCommitsSinceWorktree_other": "このワークツリーが作成されてから{{branch}}ブランチに{{count}}件の新しいコミットがあります。",
+    "filesNeedMerging": "{{count}}ファイルのマージが必要です。",
+    "filesNeedMerging_other": "{{count}}ファイルのマージが必要です。",
+    "filesNeedIntelligentMerging": "{{count}}ファイルにインテリジェントマージが必要です:",
+    "filesNeedIntelligentMerging_other": "{{count}}ファイルにインテリジェントマージが必要です:",
+    "branchHasNewCommitsSinceBuild": "このビルドが開始されてから{{branch}}ブランチに{{count}}件の新しいコミットがあります。",
+    "branchHasNewCommitsSinceBuild_other": "このビルドが開始されてから{{branch}}ブランチに{{count}}件の新しいコミットがあります。",
+    "filesNeedAIMergeDueToRenames": "{{renameCount}}件のファイル名変更により{{count}}ファイルにAIマージが必要です。",
+    "filesNeedAIMergeDueToRenames_other": "{{renameCount}}件のファイル名変更により{{count}}ファイルにAIマージが必要です。",
+    "filesNeedAIMergeDueToRenamesPlural": "{{renameCount}}件のファイル名変更により{{count}}ファイルにAIマージが必要です。",
+    "filesNeedAIMergeDueToRenamesPlural_other": "{{renameCount}}件のファイル名変更により{{count}}ファイルにAIマージが必要です。",
+    "fileRenamesDetected": "{{count}}件のファイル名変更を検出しました - AIがマージを処理します。",
+    "fileRenamesDetected_other": "{{count}}件のファイル名変更を検出しました - AIがマージを処理します。",
+    "filesRenamedOrMoved": "ファイルが名前変更または移動された可能性があります - AIがマージを処理します。",
+    "buttons": {
+      "stageWithAIMerge": "AIマージでステージング",
+      "mergeWithAI": "AIでマージ",
+      "stageTo": "{{branch}}にステージング",
+      "mergeTo": "{{branch}}にマージ",
+      "resolving": "解決中...",
+      "staging": "ステージング中...",
+      "merging": "マージ中..."
+    }
+  },
+  "pr": {
+    "title": "プルリクエストを作成",
+    "description": "\"{{taskTitle}}\"のブランチをプッシュしてプルリクエストを作成",
+    "errors": {
+      "unknown": "プルリクエストの作成中に不明なエラーが発生しました",
+      "invalidBranchName": "ブランチ名に無効な文字が含まれています。英字、数字、ハイフン（-）、アンダースコア（_）、スラッシュ（/）のみを使用してください。",
+      "emptyTitle": "プルリクエストのタイトルは空にできません。"
+    },
+    "success": {
+      "created": "プルリクエストが正常に作成されました！",
+      "alreadyExists": "このブランチにはすでにプルリクエストが存在します"
+    },
+    "actions": {
+      "retry": "再試行",
+      "creating": "PR作成中...",
+      "create": "プルリクエストを作成"
+    },
+    "labels": {
+      "sourceBranch": "ソースブランチ",
+      "targetBranch": "ターゲットブランチ",
+      "commits": "コミット",
+      "changes": "変更",
+      "prTitle": "PRタイトル（任意）",
+      "draftPR": "ドラフトPRとして作成",
+      "unknown": "不明"
+    },
+    "hints": {
+      "targetBranch": "デフォルトブランチを使用する場合は空のままにしてください",
+      "prTitle": "タスクタイトルを使用する場合は空のままにしてください"
+    }
+  }
+}
